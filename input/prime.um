@@ -1,0 +1,27 @@
+#r_0 contains prime
+ORTH 0 1369
+#div variable
+ORTH 1 2
+#mod result
+ORTH 2 0
+#Loop label
+ORTH 3 14
+#increment
+ORTH 4 1
+# else
+ORTH 5 8
+#'Y'
+ORTH 6 89
+#'N'
+ORTH 7 78
+#loop:
+MODU 2 0 1
+ADDI 1 4 1
+ORTH 3 14
+CONM 3 5 2
+ORTH 2 0
+LDPR 0 2 3
+# 14
+SUBT 1 1 4
+OUTP 0 0 1
+HALT 0 0 0

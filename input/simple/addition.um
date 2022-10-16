@@ -1,0 +1,8 @@
+ORTH 0 42
+ORTH 1 24
+ORTH 2 10
+ADDI 0 0 1
+OUTP 0 0 0 
+#output newline
+OUTP 0 0 2 
+HALT 0 0 0
